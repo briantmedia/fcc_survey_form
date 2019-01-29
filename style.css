@@ -2,17 +2,39 @@ body {
   width: 50%;
   border:  double;
   margin: auto;
-}
-
-label, input {
-  margin: 5px auto;
-}
-
-input {
-width: 15em; 
-}
-
-div {
-  margin: 0 auto;
   text-align: center;
+}
+#name, #email, #number {
+  margin: 5px auto;
+  width: 100%;
+}
+legend {
+  text-align: left;
+}
+fieldset {
+  border-radius: 10px;
+}
+/* #number-label {
+  margin-right: 6px;
+} */
+/* #number {
+  margin-left: 5px;
+} */
+#about-user {
+  margin: 15px 15px;
+  text-align: left;
+}
+#survey-info {
+  margin: 15px 15px;
+  /* text-align: left; */
+  padding-bottom: 0px;
+}
+#submit {
+  padding: 10px 45px;
+  margin-bottom: 10px;
+}
+textarea {
+  /* padding: 0 0 20px 0; */
+  /* background: orange; */
+  vertical-align: middle;
 }

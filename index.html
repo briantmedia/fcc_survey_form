@@ -8,18 +8,18 @@
   <body>
     <header>
       <h1 id="title">SURVEY !!!</h1>
-      <p>Your opinion is very important for us. <br>
+      <p id=description>Your opinion is very important for us. <br>
       Please fullfil this <em>survey form</em>:</p>
     </header>
     <main>
       <form id="survey-form" class="" action="#" method="get">
         <div class="">
           <label for="name" id="name-label">*Name:</label>
-          <input type="text" id="name" name="name" value="" placeholder="Sanea Ciuvak" required>
+          <input type="text" id="name" name="name" value="" placeholder="Name Surname" required>
         </div>
         <div class="">
           <label for="email" id="email-label">*Email:</label>
-          <input type="email" id="email" name="email" value="" placeholder="sanea@ciuvak.com"required>
+          <input type="email" id="email" name="email" value="" placeholder="email@domain.com"required>
         </div>
         <div class="">
           <label for="number" id="number-label">*Age:</label>
@@ -27,13 +27,34 @@
         </div>
         <div class="">
           <label for="dropdown">Choose please:</label>
-          <input list="numbers" id="dropdown">
-          <datalist id="numbers">
-            <option value="1">
-            <option value="2">
-            <option value="3">
-          </datalist>
+          <select id="dropdown">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
         </div>
+
+        <div class="">
+          <input type="radio" name="group1" value="1">
+          <input type="radio" name="group1" value="2" checked>
+          <input type="radio" name="group1" value="3">
+        </div>
+        <div class="">
+          <input type="radio" name="group2" value="4">
+          <input type="radio" name="group2" value="5">
+          <input type="radio" name="group2" value="6" checked>
+        </div>
+        <div class="">
+          <input type="checkbox" name="group3" value="1" checked>
+          <input type="checkbox" name="group3" value="2">
+          <input type="checkbox" name="group3" value="3" checked>
+        </div>
+
+        <div class="">
+          <label for="coments">Leave some coments here...</label>
+          <textarea name="coments" rows="8" cols="8" maxlength="100">max lenght 100 char</textarea>
+        </div>
+
         <div class="">
           <input type="submit" id="submit" name="submit" value="submit">
         </div>

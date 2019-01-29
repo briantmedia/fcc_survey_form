@@ -1,0 +1,14 @@
+label, input {
+  /*display: inline-block;
+  margin: 15px;
+  */
+  /*width: 50%;*/
+}
+
+label {
+width: 15rem;
+}
+
+input {
+width: 15rem;
+}

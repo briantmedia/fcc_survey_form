@@ -8,13 +8,15 @@
   <body>
     <header>
       <h1 id="title">SURVEY</h1>
-      <p id=description>Your opinion is very important for us. <br>
-      Please fullfil this <em>survey form</em>:</p>
+      <p id=description>We want to find out how much<br>
+        LUCK IS ON THE EARTH :)) <br>
+        Your opinion is very important for us. <br>
+        Please fullfil this <em>survey form</em>:</p>
     </header>
     <main>
       <form id="survey-form" class="" action="#" method="get">
         <fieldset id="about-user">
-        <legend>About user</legend>
+        <legend>About LUCKY</legend>
         <div>
           <label for="name" id="name-label">*Name:</label>
           <input type="text" id="name" name="name" value="" placeholder="Name Surname" required>
@@ -24,7 +26,7 @@
           <input type="email" id="email" name="email" value="" placeholder="email@domain.com" required>
         </div>
         <div>
-          <label for="number">*Age:</label>
+          <label for="number" id="number-label">*Age:</label>
           <input type="number" id="number" name="number" value="" placeholder="min: 18 <=> max: 75" step="1" min="18" max="75" required>
         </div>
       </fieldset>
@@ -34,32 +36,33 @@
         <div>
           <ol>
             <li>
-              <label for="dropdown">Choose please:</label>
+              <label for="dropdown">Did you ever find MONEY ?</label>
               <select id="dropdown">
                 <option value="">make a choise here...</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
+                <option value="1">YES</option>
+                <option value="2">NO</option>
               </select>
             </li>
-            <li>
+            <li>How many times You found money?
               <input type="radio" name="group1" value="1">1</input>
-              <input type="radio" name="group1" value="2" checked>2</input>
+              <input type="radio" name="group1" value="2">2</input>
               <input type="radio" name="group1" value="3">3</input>
+              <input type="radio" name="group1" value="more">more times</input>
             </li>
-            <li>
+            <!-- <li>
               <input type="radio" name="group2" value="4">4</input>
               <input type="radio" name="group2" value="5">5</input>
               <input type="radio" name="group2" value="6" checked>6</input>
-            </li>
-            <li>
-              <input type="checkbox" name="group3" value="1" checked>1</input>
-              <input type="checkbox" name="group3" value="2">2</input>
-              <input type="checkbox" name="group3" value="3" checked>3</input>
+            </li> -->
+            <li>Where did you find it?
+              <input type="checkbox" name="group3" value="street">street</input>
+              <input type="checkbox" name="group3" value="park">park</input>
+              <input type="checkbox" name="group3" value="parking">parking</input>
+              <input type="checkbox" name="group3" value="mall">mall</input>
             </li>
             <li>
               <label for="coments">Leave some coments here...</label>
-              <textarea name="coments" rows="5" cols="40" maxlength="100" placeholder="max lenght 100 char..."></textarea>
+              <textarea name="coments" maxlength="100" placeholder="max lenght 100 char..."></textarea>
             </div>
             </li>
           </ol>

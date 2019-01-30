@@ -1,8 +1,26 @@
+/*
+  colors picked from https://www.sessions.edu; THANCKS!
+  background: HEX: #f2fab9	R: 242	G: 250	B: 185
+  text: HEX: #9c80ad (9769b0)	R: 156	G: 128	B: 173
+  border: HEX: #8091ad	R: 128	G: 145	B: 173
+*/
+html {
+  background-color: #f2fab9;
+  background-image: url("https://www.transparenttextures.com/patterns/transparent-square-tiles.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
 body {
   width: 50%;
+  height: 85%;
   border:  double;
+  border-radius: 1%;
+  border-color: #8091ad;
   margin: auto;
   text-align: center;
+  color: #9769b0;
+}
+input, textarea, select {
+  color: #9769b0;
 }
 #name, #email, #number {
   margin: 5px auto;
@@ -10,9 +28,11 @@ body {
 }
 legend {
   text-align: left;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 fieldset {
-  border-radius: 10px;
+  border-radius: 5% / 50%;
 }
 #about-user {
   margin: 5% 5%;
